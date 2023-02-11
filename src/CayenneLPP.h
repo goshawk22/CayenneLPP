@@ -1,6 +1,10 @@
 #ifndef _CAYENNE_LPP_H_
 #define _CAYENNE_LPP_H_
 
+#include <stdint.h>
+#include <stdlib.h>
+#include <string.h>
+
 #define LPP_DIGITAL_INPUT       0       // 1 byte
 #define LPP_DIGITAL_OUTPUT      1       // 1 byte
 #define LPP_ANALOG_INPUT        2       // 2 bytes, 0.01 signed
